@@ -23,7 +23,7 @@ h1 {
   border: 3px solid #000;
 }
 
-form  {
+form {
   display: flex;
   flex-direction: column;
   gap: 0.5rem 0;
