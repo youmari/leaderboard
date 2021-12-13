@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-left: 5%;
+  margin-bottom: 2rem;
+}
+
+.sections-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.recent-scores-list {
+  border: 3px solid #000;
+}
+
+form  {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem 0;
+}
+
+form button {
+  align-self: flex-end;
+}
+
+.recent-scores-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.score-element {
+  display: flex;
+}
