@@ -3,7 +3,7 @@
 
 > Leaderboard where you can show your scores and more scores.
 
-;; ![screenshot](./screenshot.png)
+![screenshot](./screenshot.png)
 
 ## Built With
 
@@ -27,9 +27,6 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
     in the root directory run the command " npm start " to see the website in the browser
     
-;; ## Live demo
-
-;; - [See the project live](https://youmari.github.io/Todo-list/dist/)
 
 👤 **Youmari**
 
@@ -46,13 +43,3 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
