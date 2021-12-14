@@ -1,6 +1,14 @@
+:root {
+  --main-font: 'Franklin Gothic Medium', 'Arial Narrow', arial, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 
 main {
@@ -10,17 +18,35 @@ main {
 
 h1 {
   margin-left: 5%;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-family: var(--main-font);
+  font-weight: bolder;
+  background: linear-gradient(90deg, #3a47d5 0%, #222a87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .sections-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 3rem;
 }
 
+.recent-score-section {
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 0, 0, 0.075);
+}
+
+.recent-scores-title {
+  font-size: 1.5rem;
+  color: #222a87;
+}
+
 .recent-scores-list {
-  border: 3px solid #000;
+  padding: 1rem 2rem;
 }
 
 form {
@@ -35,14 +61,77 @@ form button {
 
 .recent-scores-container {
   display: flex;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 3.2rem;
   margin-bottom: 1rem;
+  padding: 0 1rem;
 }
 
 .score-element {
   list-style-type: none;
+  font-family: var(--main-font);
+  font-size: 1.3rem;
+  color: #fafaff;
+  padding: 0.2em 0;
+  border-bottom: 3px solid #00d2ff;
+}
+
+.add-score-section {
+  background-color: #fafaff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px 3px #3a47d5;
+  max-height: 240px;
+}
+
+.add-score-title {
+  font-size: 1.5rem;
+  font-family: var(--main-font);
+  color: #3a47d5;
+  margin-bottom: 1em;
+}
+
+#name,
+#score {
+  border-radius: 20px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-style: italic;
+  border-color: #3a47d5;
+  color: #222a87;
+}
+
+#submit,
+.refresh-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+  color: #fafaff;
+  background-color: #3a47d5;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.refresh-btn {
+  background-color: #fafaff;
+  color: #3a47d5;
+}
+
+#submit:hover {
+  background-color: #222a87;
+  box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.07);
 }
 
 .response {
   color: green;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .sections-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
