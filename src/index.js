@@ -10,7 +10,6 @@ const addScoreForm = document.querySelector('form');
 const nameInput = document.querySelector('#name');
 const scoreInput = document.querySelector('#score');
 
-
 const displayScores = async () => {
   const data = await getScoreData();
   clearAllElement();

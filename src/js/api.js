@@ -22,5 +22,4 @@ const addScore = async (user, score) => {
   pTagResponse.textContent = response;
 };
 
-
-export  {getScoreData, addScore};
+export { getScoreData, addScore };
