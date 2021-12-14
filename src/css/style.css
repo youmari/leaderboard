@@ -40,5 +40,9 @@ form button {
 }
 
 .score-element {
-  display: flex;
+  list-style-type: none;
+}
+
+.response {
+  color: green;
 }
