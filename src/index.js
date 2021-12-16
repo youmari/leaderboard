@@ -25,3 +25,5 @@ addScoreForm.addEventListener('submit', (e) => {
   scoreInput.value = '';
   e.preventDefault();
 });
+
+displayScores();
