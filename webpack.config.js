@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   entry: './src/index.js',
-  mode: process.env.NODE_ENV === 'production' ? 'production ' : 'development',
+  mode: 'production',
   module: {
     rules: [
       {
