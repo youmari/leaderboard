@@ -13,7 +13,7 @@
 - WEBPACK
 
 ## Live demo
-[Live Demo Link](https://youmari.github.io/portfolio/)
+[Live Demo Link](https://youmari.github.io/leaderboard/dist/)
 
 ## Getting Started
 
