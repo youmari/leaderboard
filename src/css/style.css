@@ -47,6 +47,7 @@ h1 {
 
 .recent-scores-list {
   padding: 1rem 2rem;
+  max-width: 500px;
 }
 
 form {
@@ -74,6 +75,7 @@ form button {
   color: #fafaff;
   padding: 0.2em 0;
   border-bottom: 3px solid #00d2ff;
+  word-break: break-all;
 }
 
 .add-score-section {
