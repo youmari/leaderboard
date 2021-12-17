@@ -76,6 +76,7 @@ form button {
   padding: 0.2em 0;
   border-bottom: 3px solid #00d2ff;
   word-break: break-all;
+  text-transform: capitalize;
 }
 
 .add-score-section {
